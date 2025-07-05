@@ -1,12 +1,22 @@
-import { LoginForm } from "@/components/login-form"
+import FAQ from "@/components/faq";
+import Features from "@/components/features";
+import Footer from "@/components/footer";
+import Hero from "@/components/hero";
+import { Navbar } from "@/components/navbar";
+import Pricing from "@/components/pricing";
+import Testimonial from "@/components/testimonial";
 
 function App() { 
   return (
-    <div>
-      <main className="flex min-h-screen items-center justify-center p-4">
-        <LoginForm />
-      </main>
-    </div>
+    <>
+    <Navbar />
+    <Hero />
+      <Features />
+      <FAQ />
+      <Testimonial />
+      <Pricing />
+      <Footer />      
+    </>
   )
 }
 export default App;
