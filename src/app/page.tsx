@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import { LoginForm } from "@/components/login-form"
 
 function App() { 
   return (
     <div>
-      <Button >
-        Click Me
-      </Button>
+      <main className="flex min-h-screen items-center justify-center p-4">
+        <LoginForm />
+      </main>
     </div>
   )
 }
